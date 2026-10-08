@@ -1,0 +1,16 @@
+case_id,task_type,accuracy,relevance,completeness,clarity,instruction_following,overall_score,factual_error,error_type,confidence,evaluator_reason
+1,Research,1,2,1,4,5,2.6,Yes,Factual,5,The response incorrectly identifies borrower tracking as the primary purpose; a catalog helps users discover and locate resources.
+2,Reasoning,5,5,5,5,5,5.0,No,None,5,The calculation is correct.
+3,Writing,5,5,5,5,5,5.0,No,None,5,"The response is formal, direct, and clearly communicates the requested action."
+4,Data,1,5,2,5,5,3.6,Yes,Factual,5,"The correct increase is 25%, not 20%."
+5,Research & Information Retrieval,5,5,5,5,5,5.0,No,None,5,The distinction is accurate and clear.
+6,Reasoning,5,5,5,5,5,5.0,No,None,5,The calculation is correct.
+7,Writing,5,5,5,5,5,5.0,No,None,5,"Concise, apologetic, customer-friendly, and two sentences."
+8,Data,5,5,5,5,5,5.0,No,None,5,The calculation is correct.
+9,Research & Critical Evaluation,1,5,1,4,5,3.2,Yes,Factual,5,The response makes an unjustifiably absolute health claim and should acknowledge variation and uncertainty.
+10,Research & Reasoning,1,5,1,4,5,3.2,Yes,Reasoning,5,"Repeated claims do not establish truth; source quality, independence, and evidence matter."
+11,Data Analysis,2,5,2,5,5,3.8,Yes,Reasoning,5,"The mean is correct, but the outlier makes 38 misleading as a typical value; the median is 24."
+12,AI Research,1,1,1,3,5,2.2,Yes,Reasoning,5,Explaining why sources are reliable gives the user useful context for evaluating them.
+13,Reasoning & Information Literacy,5,5,5,5,5,5.0,No,None,5,"Accurate, concise, and directly answers the question."
+14,Data & Reasoning,2,3,3,5,5,3.6,No,Reasoning,5,Past growth can inform a forecast but cannot justify certainty because conditions can change.
+15,"Research, Writing & Instruction Following",3,4,3,5,1,3.2,No,Instruction Following,5,A good summary preserves important findings while respecting the three-bullet limit; ignoring the format is an instruction-following failure.
